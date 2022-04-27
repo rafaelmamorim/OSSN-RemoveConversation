@@ -1,14 +1,11 @@
 # OSSN-Remove conversation
 An improvement on OssnMessages component to allow the user to remove an conversation from message system. Conversation stil remain in other side of the chat.
 
-Remove conversation won't appear in OssnChat component. On this version
+## Disclaimer
+As I said in [ImagesInMessage](https://github.com/rafaelmamorim/OSSN-ImagesInMessage) repo, OSSN message system has 2 components. The OssnMessages is used in mobile version and OssnChat is the small chatbox at bottom of the page. At this version, this component only works with OssnMessage. Maybe someone here can help me to develop this part of the component :-)
 
 ## Screenshots
-Screenshot of OssnMessages component
-![Screenshot of OssnMessages component](https://www.rafaelamorim.com.br/temp/ImagesInMessage.png)
-
-Screenshot of OssnChat component
-![Screenshot of OssnChat component](https://www.rafaelamorim.com.br/temp/ImagesInMessage1.png)
+![Screenshot of component](https://github.com/rafaelmamorim/OSSN-RemoveConversation/blob/main/RemoveConversation.gif?raw=true|width=850px)
 
 ## Changes
 - Version 1.0
