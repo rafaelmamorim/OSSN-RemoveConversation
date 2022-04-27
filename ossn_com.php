@@ -13,9 +13,8 @@
 /* Define Paths */
 define('__REMOVE_CONVERSATION__', ossn_route()->com . 'RemoveConversation/');
 
-
 //Load Class 
-if (com_is_active('OssnMessages')){  //Error when disable OssnMessage component bug - #5
+if (com_is_active('OssnMessages')){  
     require_once(__REMOVE_CONVERSATION__ . 'classes/RemoveConversation.php');
 } 
 
@@ -37,7 +36,6 @@ function RemoveConversation_init(){
     //actions
     ossn_register_action('message/removeConversation', __REMOVE_CONVERSATION__ . 'actions/message/removeConversation.php');
 }
-
 
 /**
  * Ossn messages page handler
@@ -70,7 +68,5 @@ function removeconversation_page()
     echo ossn_plugin_view('output/ossnbox', $params);
 
 }
-
-
 
 ossn_register_callback('ossn', 'init', 'RemoveConversation_init', 300);
